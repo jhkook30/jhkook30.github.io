@@ -1,0 +1,35 @@
+---
+layout: archive
+permalink: /year-archive/
+title: "Explorations"
+author_profile: true
+redirect_from:
+  - /wordpress/blog-posts/
+---
+
+<p>
+Here I keep informal notes and concept breakdowns as I learn — definitions, intuitions, and connections I find useful to revisit.
+</p>
+
+<h3>Core Focus: Cryptography and Privacy-Preserving Machine Learning</h3>
+
+<p>
+From <strong>cryptographic primitives</strong> to <strong>privacy-preserving techniques</strong> in machine learning, these notes reflect my ongoing effort to build intuition beyond what papers formally explain.
+</p>
+
+<p>
+Rather than full paper reviews, each entry captures a concept, a question, or a connection I encountered while reading — written to help myself think more clearly.
+</p>
+
+
+
+{% include base_path %}
+{% capture written_year %}'None'{% endcapture %}
+{% for post in site.posts %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+    {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
+  {% include archive-single.html %}
+{% endfor %}
