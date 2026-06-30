@@ -24,6 +24,9 @@ main:
   - title: "Comics"
     url: /comics/
 
+  - title: "Paper Analyzer"
+    url: /paper-analyzer/
+
   # - title: "Talks"
   #   url: /talks/ 
 
