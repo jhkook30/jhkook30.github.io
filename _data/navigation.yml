@@ -10,22 +10,22 @@
 main:
 
   - title: "CV"
-    url: /files/CV-20260522.pdf
+    url: /files/CV-20260914.pdf
+
+  - title: "Publications"
+    url: /publications/ 
 
   - title: "Deep Dives"
     url: /deepdive/
 
-  - title: "Explorations"
-    url: /year-archive/
+  # - title: "Explorations"
+  #   url: /year-archive/
   
-  - title: "Publications"
-    url: /publications/ 
-    
-  - title: "Comics"
-    url: /comics/
+  # - title: "Comics"
+  #   url: /comics/
 
-  - title: "Paper Analyzer"
-    url: /paper-analyzer/
+  # - title: "Paper Analyzer"
+  #   url: /paper-analyzer/
 
   # - title: "Talks"
   #   url: /talks/ 

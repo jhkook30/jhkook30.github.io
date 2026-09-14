@@ -7,14 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-> My research focuses on <strong>privacy-enhancing technologies</strong>, with an emphasis on building <strong>practical systems</strong> that protect sensitive data. I am particularly interested in leveraging cryptographic techniques, such as <strong>homomorphic encryption</strong>, <strong>secure multi-party computation</strong>, and <strong>differential privacy</strong>, to enable secure and efficient machine learning in <strong>real-world settings</strong>.   
-  
-> <span style="color:gray">
-저는 <strong>프라이버시 강화 기술</strong>을 중심으로, 민감한 데이터를 보호할 수 있는 <strong>실용적인 시스템</strong>을 설계하는 연구에 관심이 있습니다. 특히 <strong>동형암호</strong>, <strong>다자간 안전 계산(MPC)</strong>, <strong>차분 프라이버시</strong>와 같은 암호기술을 활용하여, <strong>실제 환경에서 안전하고 효율적인 머신러닝</strong>을 가능하게 하는 방법에 집중하고 있습니다.  
-</span>
+> I work on **privacy-preserving** and **verifiable machine learning**. When a model is trained on data nobody is allowed to see, two questions follow. Can we keep the data protected? And can we still prove the model did what it claims?
+>
+> Before I started research, I worked with sensitive data for five years. Customer records at a bank. Clinical records at a hospital. I learned that rules and policies alone are not enough. This is why I moved to cryptography.
+
+<!-- > <span style="color:#666">
+저는 <strong>프라이버시 보존 머신러닝</strong>과 <strong>검증 가능한 머신러닝</strong>을 연구합니다. 아무도 볼 수 없는 데이터로 모델을 학습시킬 때 두 가지 질문이 떠오릅니다. 데이터를 안전하게 지킬 수 있는가, 그리고 그 모델이 주장하는 대로 동작했음을 증명할 수 있는가.<br><br>
+연구를 시작하기 전, 저는 5년 동안 민감한 데이터를 다루는 일을 했습니다. 은행의 고객 정보, 병원의 임상 데이터였습니다. 그 과정에서 규정과 절차만으로는 충분하지 않다는 것을 배웠고, 그래서 암호 기술로 방향을 옮겼습니다.
+</span> -->
 
 <p>
-  <a class="btn btn--primary btn--small" href="{{ '/files/CV-20260522.pdf' | relative_url }}" target="_blank">CV (PDF)</a>
+  <a class="btn btn--primary btn--small" href="{{ '/files/CV-20260914.pdf' | relative_url }}" target="_blank">CV (PDF)</a>
   <!-- <a class="btn btn--small" href="https://scholar.google.com/citations?user=PS_CX0AAAAAJ">Google Scholar</a> -->
   <a class="btn btn--small" href="https://github.com/jhkook30">GitHub</a>
   <a class="btn btn--small" href="mailto:jkook30@gatech.edu">Email</a>
@@ -23,17 +26,21 @@ redirect_from:
 ---
 
 ## ✨ About
-I am a researcher at the <a href="https://sites.google.com/view/pmlclab/research" target="_blank">Privacy‑preserving Machine Learning and Cryptography Lab (PMLC Lab)</a>, supervised by <a href="https://sites.google.com/view/pmlclab/home" target="_blank">Prof. Eunsang Lee (이은상)</a>. My work focuses on integrating cryptographyic techniques into machine learning systems to enable strong privacy guarantees in practice.  
+I am a full-time researcher at the <a href="https://sites.google.com/view/pmlclab/research" target="_blank">Privacy-preserving Machine Learning and Cryptography Lab (PMLC Lab)</a> at Sejong University, advised by <a href="https://sites.google.com/view/pmlclab/home" target="_blank">Prof. Eunsang Lee (이은상)</a>.
+ 
 
-### 🔍 Research interests
-- **Privacy-Enhancing Technologies (PETs):** Designing practical systems that provide strong privacy guarantees in real-world machine learning 
-- **Cryptographic Machine Learning:** Leveraging homomorphic encryption, secure multi-party computation (MPC), and differential privacy for secure model training 
-- **Efficient and Scalable Systems:** Addressing communication overhead and system-level challenges in privacy-preserving machine learning   
+## 🔍 Research interests
+My work sits between two goals: **protecting the data** a model learns from, and **proving what the model did** without revealing it. I am increasingly interested in what happens when participants are not just curious, but actively malicious.    
 
-<!-- ## 📣 News
-- *2025-09*: Joined **DS@GT (Data Science @ Georgia Tech)**, the university’s largest student-led data science organization.  
-- *2025‑07*: Began research on **cryptographic techniques for privacy-preserving AI** at PMLC Lab (Seoul, KR).  
-- *2025‑05*: Completed **Intro to Research** (OMSCS) – designed a proposal on homomorphic encryption in PPML.   -->
+- **Privacy-Preserving Machine Learning** — mainly with homomorphic encryption and secure multi-party computation for training on data that cannot be shared
+- **Verifiable Machine Learning** — zero-knowledge proofs for correctness and fairness guarantees, and what those proofs leak   
+
+## 📣 News
+- *2026-09*: Submitted work on **privacy leakage in agentic AI** to NeurIPS 2026 workshops.
+- *2026-08*: Started co-organizing a **zero-knowledge proof study group** on verifiable and fairness-aware ML with GaTech OMSCS students.
+- *2025-11*: Presented a poster on **sparsified homomorphic encryption in federated learning** at KICS Fall Conference.
+- *2025-07*: Joined **PMLC Lab** at Sejong University as a full-time researcher.
+
 <!-- 필요 없으면 위/아래 줄을 삭제하거나 더 추가하세요. -->
 
 <!--
