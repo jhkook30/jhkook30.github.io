@@ -26,7 +26,7 @@ author:
   avatar           : "IMG_2931.png"
   name             : "Jihyung Kook (국지형)"
   pronouns         : "she/her" # example: "she/her"  
-  bio              : "Researcher at PMLC Lab, Sejong University. Working on privacy-preserving machine learning, with growing interest in verifiable ML. M.S. CS, Georgia Tech."
+  bio              : "Researcher at PMLC Lab, Sejong University. Working on verifiable and privacy-preserving computation, with broader interests in applied cryptography and AI security. M.S. CS, Georgia Tech."
   location         : "Seoul, South Korea"
   uri              : # URL
   email            : "jhkook30@gmail.com"

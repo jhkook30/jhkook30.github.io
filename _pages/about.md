@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-> I work on **privacy-preserving** and **verifiable machine learning**. When a model is trained on data nobody is allowed to see, two questions follow. Can we keep the data protected? And can we still prove the model did what it claims?
+> I work on **verifiable and privacy-preserving computation** for machine learning. I ask how models can learn from sensitive data without exposing it, and how we can verify what a model or AI system did without revealing more than necessary.
 >
-> Before I started research, I worked with sensitive data for five years. Customer records at a bank. Clinical records at a hospital. I learned that rules and policies alone are not enough. This is why I moved to cryptography.
+> Before focusing on cryptography, I worked with data in finance, healthcare, and consumer technology. That experience motivates me to study protections that are built into computation itself.
 
 <!-- > <span style="color:#666">
 저는 <strong>프라이버시 보존 머신러닝</strong>과 <strong>검증 가능한 머신러닝</strong>을 연구합니다. 아무도 볼 수 없는 데이터로 모델을 학습시킬 때 두 가지 질문이 떠오릅니다. 데이터를 안전하게 지킬 수 있는가, 그리고 그 모델이 주장하는 대로 동작했음을 증명할 수 있는가.<br><br>
@@ -17,7 +17,7 @@ redirect_from:
 </span> -->
 
 <p>
-  <a class="btn btn--primary btn--small" href="{{ '/files/CV-20260914.pdf' | relative_url }}" target="_blank">CV (PDF)</a>
+  <a class="btn btn--primary btn--small" href="{{ '/files/CV-20260924.pdf' | relative_url }}" target="_blank">CV (PDF)</a>
   <!-- <a class="btn btn--small" href="https://scholar.google.com/citations?user=PS_CX0AAAAAJ">Google Scholar</a> -->
   <a class="btn btn--small" href="https://github.com/jhkook30">GitHub</a>
   <a class="btn btn--small" href="mailto:jkook30@gatech.edu">Email</a>
@@ -30,10 +30,11 @@ I am a full-time researcher at the <a href="https://sites.google.com/view/pmlcla
  
 
 ## 🔍 Research interests
-My work sits between two goals: **protecting the data** a model learns from, and **proving what the model did** without revealing it. I am increasingly interested in what happens when participants are not just curious, but actively malicious.    
+My research interests center on **verifiable computation** and **privacy-preserving computation**, broadly within applied cryptography. Much of my current work explores these ideas in machine learning and AI systems, particularly when security guarantees must hold in the presence of malicious participants or unintended information leakage.
 
-- **Privacy-Preserving Machine Learning** — mainly with homomorphic encryption and secure multi-party computation for training on data that cannot be shared
-- **Verifiable Machine Learning** — zero-knowledge proofs for correctness and fairness guarantees, and what those proofs leak   
+- **Verifiable Computation** — zero-knowledge proofs and related techniques for model certification, including correctness and fairness guarantees, with attention to soundness gaps that malicious model trainers could exploit
+- **Privacy-Preserving Computation** — homomorphic encryption and secure multi-party computation for secure, communication-efficient learning over distributed or sensitive data, including federated learning
+- **AI Security and Privacy** — attacks, privacy leakage, and unintended disclosures across AI models, tool use, and system interfaces, including agentic-AI traces and metadata
 
 ## 📣 News
 - *2026-09*: Submitted work on **privacy leakage in agentic AI** to NeurIPS 2026 workshops.
