@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-> I work on **verifiable and privacy-preserving computation** for machine learning. I ask how models can learn from sensitive data without exposing it, and how we can verify what a model or AI system did without revealing more than necessary.
+> I work on **verifiable computation** and **privacy-preserving computation**. I ask how we can compute over sensitive data without exposing it, and how we can verify that a system behaved as intended without revealing more than necessary.
 >
 > Before focusing on cryptography, I worked with data in finance, healthcare, and consumer technology. That experience motivates me to study protections that are built into computation itself.
 
