@@ -1,6 +1,7 @@
 ---
 title: "IoT-based Mailbox System using Android and Arduino"
 collection: publications
+publication_status: "Poster presented at"
 category: conferences
 permalink: /publication/2015-04-iot-mailbox
 excerpt: 'An undergraduate project connecting a physical mailbox to a phone. A sensor detects mail arrival, an Arduino board relays the event, and an Android app notifies the user. My first work on systems that handle something people care about keeping private.'

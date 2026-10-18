@@ -1,6 +1,7 @@
 ---
 title: "Efficiency Evaluation of Sparsified Homomorphic Encryption in Federated Learning"
 collection: publications
+publication_status: "Poster presented at"
 category: conferences
 permalink: /publication/2025-11-sparsified-he-fl
 excerpt: 'We measured what homomorphic encryption actually costs in federated learning, and how much of that cost sparsification can recover. On MNIST, Top-k sparsification cut communication by 4.3x and training time by 1.6x, at the price of 1.2%p accuracy.'

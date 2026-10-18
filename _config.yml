@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "Jihyung Kook (국지형)"
-description              : &description "Researcher at Sejong University, working on privacy-preserving and verifiable machine learning — training on data that cannot be shared, and proving what a model did without revealing it."
+description              : &description "Researcher at Sejong University studying verifiable and privacy-preserving computation, applied cryptography, and AI security and privacy."
 url                      : "https://jhkook30.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 host                     : localhost
@@ -26,10 +26,10 @@ author:
   avatar           : "IMG_2931.png"
   name             : "Jihyung Kook (국지형)"
   pronouns         : "she/her" # example: "she/her"  
-  bio              : "Researcher at PMLC Lab, Sejong University. Working on verifiable and privacy-preserving computation, with broader interests in applied cryptography and AI security. M.S. CS, Georgia Tech."
+  bio              : "Researcher at PMLC Lab, Sejong University. Verifiable and privacy-preserving computation; applied cryptography; AI security and privacy. M.S. CS, Georgia Tech."
   location         : "Seoul, South Korea"
   uri              : # URL
-  email            : "jhkook30@gmail.com"
+  email            : "jkook30@gatech.edu"
   github: "jhkook30"
 
   # Academic websites
@@ -81,12 +81,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
+  workshops:
+    title: 'Workshop Papers and Posters'
   conferences:
-    title: 'Conference Papers'
+    title: 'Conference Papers and Posters'
+  manuscripts:
+    title: 'Journal Articles'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

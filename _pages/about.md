@@ -7,18 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-> I work on **verifiable computation** and **privacy-preserving computation**. I ask how we can compute over sensitive data without exposing it, and how we can verify that a system behaved as intended without revealing more than necessary.
+> I study **verifiable and privacy-preserving computation**: how to protect sensitive inputs while checking claims about computations performed by untrusted parties. My interests lie in applied cryptography, particularly zero-knowledge proofs, homomorphic encryption, and multi-party computation.
 >
-> Before focusing on cryptography, I worked with data in finance, healthcare, and consumer technology. That experience motivates me to study protections that are built into computation itself.
-
-<!-- > <span style="color:#666">
-저는 <strong>프라이버시 보존 머신러닝</strong>과 <strong>검증 가능한 머신러닝</strong>을 연구합니다. 아무도 볼 수 없는 데이터로 모델을 학습시킬 때 두 가지 질문이 떠오릅니다. 데이터를 안전하게 지킬 수 있는가, 그리고 그 모델이 주장하는 대로 동작했음을 증명할 수 있는가.<br><br>
-연구를 시작하기 전, 저는 5년 동안 민감한 데이터를 다루는 일을 했습니다. 은행의 고객 정보, 병원의 임상 데이터였습니다. 그 과정에서 규정과 절차만으로는 충분하지 않다는 것을 배웠고, 그래서 암호 기술로 방향을 옮겼습니다.
-</span> -->
+> My earlier work with data in healthcare, finance, and consumer technology motivates these questions. I am especially interested in protocol design, adversarial analysis, and implementation and evaluation.
 
 <p>
-  <a class="btn btn--primary btn--small" href="{{ '/files/CV-20260924.pdf' | relative_url }}" target="_blank">CV (PDF)</a>
-  <!-- <a class="btn btn--small" href="https://scholar.google.com/citations?user=PS_CX0AAAAAJ">Google Scholar</a> -->
+  <a class="btn btn--primary btn--small" href="{{ '/files/CV - 20261018.pdf' | relative_url }}" target="_blank" rel="noopener">CV (PDF)</a>
   <a class="btn btn--small" href="https://github.com/jhkook30">GitHub</a>
   <a class="btn btn--small" href="mailto:jkook30@gatech.edu">Email</a>
 </p>
@@ -26,31 +20,20 @@ redirect_from:
 ---
 
 ## ✨ About
-I am a full-time researcher at the <a href="https://sites.google.com/view/pmlclab/research" target="_blank">Privacy-preserving Machine Learning and Cryptography Lab (PMLC Lab)</a> at Sejong University, advised by <a href="https://sites.google.com/view/pmlclab/home" target="_blank">Prof. Eunsang Lee (이은상)</a>.
- 
+I am a full-time researcher at the [Privacy-Preserving Machine Learning and Cryptography Lab (PMLC Lab)](https://sites.google.com/view/pmlclab/research) at Sejong University, advised by [Prof. Eunsang Lee](https://sites.google.com/view/pmlclab/home). I received an online M.S. in Computer Science from Georgia Tech in 2024 and a B.S. in Statistics and Computer Science from Sookmyung Women's University in 2017.
 
-## 🔍 Research interests
-My research interests center on **verifiable computation** and **privacy-preserving computation**, broadly within applied cryptography. Much of my current work explores these ideas in machine learning and AI systems, particularly when security guarantees must hold in the presence of malicious participants or unintended information leakage.
+Alongside my work at PMLC Lab, I co-organize a Georgia Tech OMSCS zero-knowledge proof study group and conduct independent research on verifiable model certification and privacy leakage in agentic AI.
 
-- **Verifiable Computation** — zero-knowledge proofs and related techniques for model certification, including correctness and fairness guarantees, with attention to soundness gaps that malicious model trainers could exploit
-- **Privacy-Preserving Computation** — homomorphic encryption and secure multi-party computation for secure, communication-efficient learning over distributed or sensitive data, including federated learning
-- **AI Security and Privacy** — attacks, privacy leakage, and unintended disclosures across AI models, tool use, and system interfaces, including agentic-AI traces and metadata
+## 🔍 Research interests and projects
+- **Verifiable computation and zero-knowledge proofs.** I investigate whether malicious provers can exploit numerical tolerances in model-certification systems. My current work analyzes fixed-point constraints in FairProof's Go/gnark implementation and evaluates malicious witnesses through controlled experiments.
+- **Privacy-preserving computation.** I work on communication-efficient federated learning using threshold CKKS and sparse aggregation. I lead experimental design and implementation with OpenFHE/C++, evaluating the accuracy, communication, and runtime trade-offs on CIFAR-10 and CIFAR-100.
+- **AI security and privacy.** I study how sensitive information can leak through observable system behavior. In work on simulated healthcare-agent traces, I developed classifiers that infer patient attributes from tool names alone, without access to prompts, tool arguments, or outputs.
 
 ## 📣 News
-- *2026-09*: Submitted work on **privacy leakage in agentic AI** to NeurIPS 2026 workshops.
-- *2026-08*: Started co-organizing a **zero-knowledge proof study group** on verifiable and fairness-aware ML with GaTech OMSCS students.
-- *2025-11*: Presented a poster on **sparsified homomorphic encryption in federated learning** at KICS Fall Conference.
+- *2026-10*: Our work, **[Sensitive Information Leakage from Tool-Call Traces]({{ '/publication/sensitive-information-leakage-tool-call-traces' | relative_url }})**, has been **accepted for poster presentation at the AIWild and InfPriv Workshops at NeurIPS 2026** (December 2026).
+- *2026-08*: Started co-organizing a **zero-knowledge proof study group** with Georgia Tech OMSCS students, focusing on adversarial analysis of verifiable model certification.
+- *2025-11*: Presented **[Efficiency Evaluation of Sparsified Homomorphic Encryption in Federated Learning]({{ '/publication/2025-11-sparsified-he-fl' | relative_url }})** as a poster at the KICS Fall Conference.
 - *2025-07*: Joined **PMLC Lab** at Sejong University as a full-time researcher.
-
-<!-- 필요 없으면 위/아래 줄을 삭제하거나 더 추가하세요. -->
-
-<!--
-
-## 📄 Publication
-- **A standardized glucose–insulin–potassium infusion protocol in surgical patients: Use of real clinical data from a clinical data warehouse**  
-  *Diabetes Research and Clinical Practice*, 174(2021), 108756.  
-  <a href="{{ '/publications/' | relative_url }}">See details →</a>
--->
 
 ## Hobbies
 

@@ -1,16 +1,12 @@
 {
   "basics": {
     "name": "Jihyung Kook",
-    "email": "jhkook30@gmail.com",
-    "phone": "+82 10-9722-7482",
+    "email": "jkook30@gatech.edu",
     "website": "https://jhkook30.github.io",
-    "summary": "Researcher at the <a href='https://sites.google.com/view/pmlclab/research' target='_blank'>Privacy-preserving Machine Learning and Cryptography Lab (PMLC Lab)</a>, under the supervision of <a href='https://sites.google.com/view/pmlclab/home' target='_blank'>Prof. Eunsang Lee (이은상)</a>. My research broadly focuses on <strong>privacy-preserving machine learning and cryptography</strong>, with applications to sensitive domains such as healthcare. Motivated by the belief that technology should safeguard people’s everyday peace and expand opportunities to learn and dream, I aim to advance secure and practical methods for future AI systems.",
+    "summary": "Full-time researcher at PMLC Lab, Sejong University, advised by Prof. Eunsang Lee. Research interests: verifiable and privacy-preserving computation, applied cryptography, and AI security and privacy.",
     "location": {
-      "address": "",
-      "postalCode": "",
       "city": "Seoul",
-      "countryCode": "KR",
-      "region": "South Korea"
+      "countryCode": "KR"
     },
     "profiles": [
       {
@@ -20,123 +16,58 @@
       }
     ]
   },
-  "work": [],
   "education": [
     {
       "institution": "Georgia Institute of Technology",
-      "area": "Masters in Computer Science",
-      "studyType": "online",
-      "startDate": "2021",
-      "endDate": "2024",
-      "gpa": null,
-      "courses": ["Intro to Research", "Artifical Intelligence", "Computer Vision"]
+      "area": "Online M.S. in Computer Science",
+      "endDate": "2024-12",
+      "courses": [
+        "Specialization: Computational Perception & Robotics"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "institution": "Sookmyung Women's University",
+      "area": "B.S. in Statistics and Computer Science",
+      "endDate": "2017-02",
       "courses": []
     }
   ],
+  "work": [],
   "skills": [],
   "languages": [],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Sensitive Information Leakage from Tool-Call Traces",
+      "publisher": "Poster accepted at AIWild and InfPriv Workshops at NeurIPS",
+      "releaseDate": "2026-12",
+      "website": "https://jhkook30.github.io/publication/sensitive-information-leakage-tool-call-traces",
+      "summary": "Inferring sensitive patient attributes from tool names alone in simulated healthcare-agent traces, without access to prompts, tool arguments, or outputs."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Efficiency Evaluation of Sparsified Homomorphic Encryption in Federated Learning",
+      "publisher": "Poster presented at Korean Institute of Communications and Information Sciences (KICS) Fall Conference",
+      "releaseDate": "2025-11",
+      "website": "https://jhkook30.github.io/publication/2025-11-sparsified-he-fl",
+      "summary": "A poster on evaluating sparsified homomorphic encryption for federated learning."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "IoT-based Mailbox System Using Android and Arduino",
+      "publisher": "Poster presented at Korea Information Processing Society (KIPS) Spring Conference",
+      "releaseDate": "2015-04",
+      "website": "https://jhkook30.github.io/publication/2015-04-iot-mailbox",
+      "summary": "A poster on an IoT-based mailbox system using Android and Arduino."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "A standardized glucose-insulin-potassium infusion protocol in surgical patients: Use of real clinical data from a clinical data warehouse",
+      "publisher": "Diabetes Research and Clinical Practice, 174:108756",
+      "releaseDate": "2021-04",
+      "website": "https://doi.org/10.1016/j.diabres.2021.108756",
+      "summary": "Retrospective evaluation using clinical data warehouse records."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }
