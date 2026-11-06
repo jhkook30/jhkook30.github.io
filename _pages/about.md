@@ -12,7 +12,7 @@ redirect_from:
 > My earlier work with data in healthcare, finance, and consumer technology motivates these questions. I am especially interested in protocol design, adversarial analysis, and implementation and evaluation.
 
 <p>
-  <a class="btn btn--primary btn--small" href="{{ '/files/CV - 20261018.pdf' | relative_url }}" target="_blank" rel="noopener">CV (PDF)</a>
+  <a class="btn btn--primary btn--small" href="{{ '/files/CV - 20261107.pdf' | relative_url }}" target="_blank" rel="noopener">CV (PDF)</a>
   <a class="btn btn--small" href="https://github.com/jhkook30">GitHub</a>
   <a class="btn btn--small" href="mailto:jkook30@gatech.edu">Email</a>
 </p>
