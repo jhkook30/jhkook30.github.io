@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-[Download CV (PDF)]({{ '/files/CV%20-%2020261107.pdf' | relative_url }}) · Updated November 7, 2026
+[Download CV (PDF)]({{ '/files/CV-20261108.pdf' | relative_url }}) · Updated November 8, 2026
 
 ## Research interests
 Verifiable and privacy-preserving computation; applied cryptography (zero-knowledge proofs, homomorphic encryption, and multi-party computation); AI security and privacy.
